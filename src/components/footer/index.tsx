@@ -62,8 +62,7 @@ export default function Footer() {
         <p>
           Copyright © 2019. Todos os direitos reservados. Todas as marcas e suas
           imagens são de propriedade de seus respectivos donos.<br></br>É vedada
-          a reprodução, total ou parcial, de qualquer conteúdo sem expressa
-          autorização.
+          a reprodução, total ou par
         </p>
       </div>
     </footer>
