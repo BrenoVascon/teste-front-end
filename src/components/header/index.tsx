@@ -6,6 +6,7 @@ import {
   PiMagnifyingGlass,
   PiX,
   PiList,
+  PiCrownSimpleBold,
 } from "react-icons/pi";
 import { FaRegHeart, FaRegUserCircle } from "react-icons/fa";
 import { TbShoppingCart } from "react-icons/tb";
@@ -15,7 +16,9 @@ import Logo from "../../assets/images/logo.svg";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [activeCategory, setActiveCategory] = useState<string | null>(null);
+  const [activeCategory, setActiveCategory] = useState<string | null>(
+    "OFERTAS DO DIA"
+  );
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -127,7 +130,13 @@ export default function Header() {
                 }
                 onClick={() => setActiveCategory(category)}
               >
-                {category}
+                {category === "ASSINATURA" && (
+                  <span className={styles.iconWithText}>
+                    <PiCrownSimpleBold />
+                    {category}
+                  </span>
+                )}
+                {category !== "ASSINATURA" && category}
               </p>
             ))}
           </nav>

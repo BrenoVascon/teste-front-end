@@ -23,7 +23,14 @@ const HomePage: React.FC = () => {
         </section>
         <section aria-label="Produtos relacionados">
           <SectionTitle>Produtos relacionados</SectionTitle>
-          <ProductSlider />
+          <ProductSlider showCategories={true} />
+        </section>
+        <section aria-label="Parceiros">
+          <Partners />
+        </section>
+        <section aria-label="Produtos relacionados">
+          <SectionTitle>Produtos relacionados</SectionTitle>
+          <ProductSlider showCategories={false} />
         </section>
         <section aria-label="Parceiros">
           <Partners />
@@ -32,6 +39,7 @@ const HomePage: React.FC = () => {
           <SectionTitle viewAllText="Ver todos">
             Navegue por marcas
           </SectionTitle>
+          <ProductSlider showCategories={false} />
           <Brands />
         </section>
       </main>
