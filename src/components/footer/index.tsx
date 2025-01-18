@@ -1,4 +1,3 @@
-import React from "react";
 import styles from "./footer.module.sass";
 import facebookIcon from "../../assets/images/footer/facebook.svg";
 import instagramIcon from "../../assets/images/footer/instagram.svg";
