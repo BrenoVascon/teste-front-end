@@ -28,12 +28,12 @@ Também é recomendado utilizar um editor de código como o Visual Studio Code.
 
 ```bash
 # Clone o repositório:
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/BrenoVascon/teste-front-end.git
 
 
 # Navegue até o diretório do projeto:
 ```bash
-cd nome-do-repositorio
+cd teste-front-end-jr
 
 
 # Instale as dependências:
@@ -54,4 +54,4 @@ Copiar código
 # Para criar uma build de produção:
 ```bash
 npm run build
->>>>>>> 0602b2d (Initial commit)
+
