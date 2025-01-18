@@ -40,8 +40,6 @@ cd teste-front-end-jr
 npm install
 ```
 
-## O projeto estará rodando em http://localhost:5173.
-
 ```bash
 # Inicie o servidor de desenvolvimento:
 npm run dev
@@ -53,3 +51,4 @@ npm run dev
 # Para criar uma build de produção:
 npm run build
 ```
+## O projeto estará rodando em http://localhost:5173.
