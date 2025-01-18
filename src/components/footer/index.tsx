@@ -2,7 +2,8 @@ import React from "react";
 import styles from "./footer.module.sass";
 import facebookIcon from "../../assets/images/footer/facebook.svg";
 import instagramIcon from "../../assets/images/footer/instagram.svg";
-import youtubeIcon from "../../assets/images/footer/youtube.svg";
+import linkedinIcon from "../../assets/images/footer/linkedin.svg";
+import VerticalLine from "../../assets/images/footer/Line 4.svg";
 import Logo from "../../assets/images/logo.svg";
 
 export default function Footer() {
@@ -16,7 +17,7 @@ export default function Footer() {
           </h4>
           <p className={styles.newsletterDescription}>
             Assine a nossa newsletter e receba as novidades e conteúdos
-            exclusivos da Econverse.
+            exclusivos <br></br>da Econverse.
           </p>
         </div>
         <div className={styles.subscribe}>
@@ -45,7 +46,6 @@ export default function Footer() {
           <h4 className={styles.about}>
             Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit.
           </h4>
-
           <div className={styles.socialMedia}>
             <a href="#" aria-label="Facebook">
               <img src={facebookIcon} alt="Facebook" width={22} height={22} />
@@ -54,9 +54,13 @@ export default function Footer() {
               <img src={instagramIcon} alt="Instagram" width={22} height={22} />
             </a>
             <a href="#" aria-label="YouTube">
-              <img src={youtubeIcon} alt="YouTube" width={22} height={22} />
+              <img src={linkedinIcon} alt="Linkedin" width={22} height={22} />
             </a>
           </div>
+        </div>
+
+        <div className={styles.verticalLine}>
+          <img src={VerticalLine} alt="Vertical Line" />
         </div>
 
         <div className={styles.section}>

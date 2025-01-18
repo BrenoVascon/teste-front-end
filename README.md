@@ -54,4 +54,3 @@ Copiar código
 # Para criar uma build de produção:
 ```bash
 npm run build
-
