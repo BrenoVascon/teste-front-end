@@ -12,7 +12,7 @@ import { FaRegHeart, FaRegUserCircle } from "react-icons/fa";
 import { TbShoppingCart } from "react-icons/tb";
 import styles from "./header.module.sass";
 import Vector from "../../assets/images/vector.svg";
-import Logo from "../../assets/images/logo.svg";
+import Logo from "../../assets/images/Logo.png";
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -87,8 +87,8 @@ export default function Header() {
         <div className={styles.logoContainer}>
           <img
             src={Logo}
-            width={139}
-            height={51}
+            width={153}
+            height={46}
             alt="Logo Econverse"
             className={styles.logo}
           />

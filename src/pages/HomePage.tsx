@@ -35,12 +35,12 @@ const HomePage: React.FC = () => {
         <section aria-label="Parceiros">
           <Partners />
         </section>
+        <Brands />
         <section aria-label="Navegue por marcas">
           <SectionTitle viewAllText="Ver todos">
             Navegue por marcas
           </SectionTitle>
           <ProductSlider showCategories={false} />
-          <Brands />
         </section>
       </main>
       <footer>

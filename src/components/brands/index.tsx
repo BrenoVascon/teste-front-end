@@ -12,8 +12,8 @@ export default function Brands() {
           <img
             src={image}
             alt={`Brand Logo ${index + 1}`}
-            width={172}
-            height={172}
+            width={211}
+            height={221}
           />
         </div>
       ))}

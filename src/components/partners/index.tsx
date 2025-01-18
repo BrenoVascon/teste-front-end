@@ -8,7 +8,7 @@ export default function Parceiros() {
         <img
           src={ParceirosPhoto}
           alt="Parceiros"
-          width={574}
+          width={634}
           height={350}
           className={styles.image}
         />

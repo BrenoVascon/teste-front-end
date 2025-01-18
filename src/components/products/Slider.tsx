@@ -34,7 +34,7 @@ export default function Slider({ products, onBuyClick }: SliderProps) {
       <div className={styles.sliderContainer}>
         <Swiper
           modules={[Navigation]}
-          spaceBetween={25}
+          spaceBetween={0}
           slidesPerView={4}
           navigation={{
             nextEl: `.${styles.swiperButtonNext}`,
@@ -43,7 +43,7 @@ export default function Slider({ products, onBuyClick }: SliderProps) {
           breakpoints={{
             1024: {
               slidesPerView: 4,
-              spaceBetween: 30,
+              spaceBetween: 20,
             },
             600: {
               slidesPerView: 3,

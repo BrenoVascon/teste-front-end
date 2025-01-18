@@ -3,7 +3,7 @@ import facebookIcon from "../../assets/images/footer/facebook.svg";
 import instagramIcon from "../../assets/images/footer/instagram.svg";
 import linkedinIcon from "../../assets/images/footer/linkedin.svg";
 import VerticalLine from "../../assets/images/footer/Line 4.svg";
-import Logo from "../../assets/images/logo.svg";
+import Logo from "../../assets/images/Logo.png";
 
 export default function Footer() {
   return (
@@ -37,8 +37,8 @@ export default function Footer() {
         <div className={styles.section}>
           <img
             src={Logo}
-            width={139}
-            height={51}
+            width={153}
+            height={46}
             alt="Logo Econverse"
             className={styles.logo}
           />
