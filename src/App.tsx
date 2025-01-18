@@ -1,4 +1,3 @@
-import "./app.module.sass";
 import "../src/styles/styles.sass";
 import HomePage from "./pages/HomePage";
 

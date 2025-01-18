@@ -1,6 +1,7 @@
 .brandsWrapper
  display: flex
- justify-content: space-evenly
+ justify-content: center
+ gap: 60px
 
 
 
@@ -14,3 +15,8 @@
 
   &:hover
     transform: scale(1.01)
+
+  @media (min-width: 1440px)
+   .brandsWrapper
+     gap:10px
+     justify-content: center

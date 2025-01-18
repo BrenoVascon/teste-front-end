@@ -34,9 +34,9 @@
     height: 46px
 
   .about
-  font-size: 14px
-  font-weight: 500
-  color: #222222B5
+   font-size: 14px
+   font-weight: 500
+   color: #222222B5
 
 
   h4
@@ -185,6 +185,11 @@
       @media (max-width: 480px)
         font-size: 8px
 
+      @media (max-width: 850px)
+        width: 80%
+        font-size: 12px
+        padding: 10px 20px
+
     button
       background: #F7CA11
       border-radius: 8px
@@ -197,7 +202,7 @@
       height: 42px
 
       @media (min-width: 768px)
-        width: 200px
+        width: 150px
 
       @media (max-width: 767px)
         width: 100%
@@ -210,6 +215,12 @@
         font-size: 10px
       @media (max-width: 480px)
         font-size: 8px
+
+      @media (max-width: 860px)
+        width: 80%
+        font-size: 12px
+        padding: 10px 20px
+        h4: 16px
 
   .terms
     display: flex
@@ -240,10 +251,10 @@
   font-weight: 300
   font-size: 14px
   line-height: 21px
-  margin-top: 1px
   padding-top: 3px
   color: rgba(40, 40, 40, 0.18)
   border-top: 1px solid #e1e1e1
+  background-color: #FFFF
 
   p
     font-size: 12px
@@ -256,3 +267,9 @@
       font-size: 8px
     @media (max-width: 480px)
       font-size: 6px
+
+
+@media (min-width: 1440)
+  .newsletter
+
+   padding: 0px 30px

@@ -1,8 +1,7 @@
-
-
 # Projeto Econverse - Vitrine de Produtos
 
 Este projeto é uma aplicação web desenvolvida em React e TypeScript que consome dados de uma API JSON para exibir uma vitrine de produtos. Ele segue as especificações fornecidas pela Econverse para a vaga de Desenvolvedor Front-End Jr.
+- **TEMPLATE:** [Figma](https://www.figma.com/design/rWnzPeoxgynuNPsJjV0VmV/Teste-Front-End-Jr?node-id=1-1248&t=7uSIvhz4ciFkJ4X1-0) Segui o padrão do figma de 1440 Pixeis de width
 
 ## 🎯 Objetivo
 
@@ -29,28 +28,28 @@ Também é recomendado utilizar um editor de código como o Visual Studio Code.
 ```bash
 # Clone o repositório:
 git clone https://github.com/BrenoVascon/teste-front-end.git
+```
 
-
+```bash
 # Navegue até o diretório do projeto:
-```bash
 cd teste-front-end-jr
+```
 
-
-# Instale as dependências:
 ```bash
+# Instale as dependências:
 npm install
+```
 
 ## O projeto estará rodando em http://localhost:5173.
 
-
-# Inicie o servidor de desenvolvimento:
 ```bash
+# Inicie o servidor de desenvolvimento:
 npm run dev
-
+```
 
 📦 Build para Produção
 
-Copiar código
-# Para criar uma build de produção:
 ```bash
+# Para criar uma build de produção:
 npm run build
+```

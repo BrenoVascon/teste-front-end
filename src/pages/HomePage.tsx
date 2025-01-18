@@ -29,16 +29,19 @@ const HomePage: React.FC = () => {
           <Partners />
         </section>
         <section aria-label="Produtos relacionados">
-          <SectionTitle>Produtos relacionados</SectionTitle>
+          <SectionTitle viewAllText="Ver todos">
+            Produtos relacionados
+          </SectionTitle>
           <ProductSlider showCategories={false} />
         </section>
         <section aria-label="Parceiros">
           <Partners />
+          <SectionTitle>Navegue por marcas</SectionTitle>
+          <Brands />
         </section>
-        <Brands />
-        <section aria-label="Navegue por marcas">
+        <section aria-label="Produtos relacionados">
           <SectionTitle viewAllText="Ver todos">
-            Navegue por marcas
+            Produtos relacionados
           </SectionTitle>
           <ProductSlider showCategories={false} />
         </section>
