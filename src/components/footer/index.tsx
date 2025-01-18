@@ -46,13 +46,22 @@ export default function Footer() {
             Lorem ipsum dolor sit amet, consectetur <br></br>adipiscing elit.
           </h4>
           <div className={styles.socialMedia}>
-            <a href="#" aria-label="Facebook">
+            <a
+              href="https://www.facebook.com/agenciaeconverse"
+              aria-label="Facebook"
+            >
               <img src={facebookIcon} alt="Facebook" width={22} height={22} />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a
+              href="https://www.instagram.com/econverse.ag/"
+              aria-label="Instagram"
+            >
               <img src={instagramIcon} alt="Instagram" width={22} height={22} />
             </a>
-            <a href="#" aria-label="YouTube">
+            <a
+              href="https://www.linkedin.com/company/econverse/posts/?feedView=all"
+              aria-label="Linkedin"
+            >
               <img src={linkedinIcon} alt="Linkedin" width={22} height={22} />
             </a>
           </div>
