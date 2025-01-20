@@ -41,7 +41,7 @@ export default function Slider({ products, onBuyClick }: SliderProps) {
             prevEl: `.${styles.swiperButtonPrev}`,
           }}
           breakpoints={{
-            1300: {
+            1280: {
               slidesPerView: 4,
               spaceBetween: 10,
             },
